@@ -21,40 +21,33 @@ body section.writing {
 section.writing figure {
     flex:1;
     padding: 3vw;
-    background-color:lemonchiffon;
+    background-color:red;
 }
 
 section.writing div.analysis {
       flex:1; 
 
     padding: 3vw;
-    background-color:maroon;
+    background-color:pink;
     color:white;
     
 }
 
 
 body section.gallery {
-  width: 80%;
-    background-color: green; 
+  width: 70%;
+    background-color: blue; 
     padding:2em; 
     margin:auto; 
     display:flex;
     flex-direction:row;
     }
 
-/* ebb: This is a comment in CSS: 
- * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
- * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
- */
 
-section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
+
+section.gallery figure {flex: 2; margin:auto; padding-top: 2vw; padding-bottom: 2vw; }
 figcaption {font-style: italic; font-size: smaller;}
 
-img.photo {max-width:500px; width:80%}
-/* If I want to style ANY element with the class of "photo" I could just write 
- * .photo { }
- *  */
 
 ol {list-style-type: lower-alpha;
 padding: 5em;
@@ -88,7 +81,7 @@ a:active {
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- nav {background-color:aqua;
+ nav {background-color:navy;
  display:flex;
  
  }
